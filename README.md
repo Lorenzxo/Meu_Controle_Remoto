@@ -1,44 +1,32 @@
-Markdown
-# 📱 Nome do seu Aplicativo
-O Meu_Controle_Remoto é um aplicativo Android desenvolvido no MIT App Inventor para realizar o controle sem fio de motores NXT via Bluetooth
-. Com uma interface intuitiva e personalizada com a identidade visual do SENAI, o app permite comandar movimentos direcionais e fornece feedback em tempo real sobre o status da conexão
-.
+# 📱 Meu_Controle_Remoto
 
-
----
+O **Meu_Controle_Remoto** é um aplicativo Android desenvolvido no MIT App Inventor para realizar o controle sem fio de motores NXT via Bluetooth. Com uma interface intuitiva e personalizada com a identidade visual do SENAI, o app permite comandar movimentos direcionais e fornece feedback em tempo real sobre o status da conexão.
 
 ## 🎯 Objetivo
-O Meu_Controle_Remoto foi desenvolvido para permitir o controle sem fio de hardware (como motores NXT) através de uma interface móvel intuitiva
-. O objetivo principal é facilitar a interação entre um dispositivo Android e robôs ou mecanismos motorizados via comunicação Bluetooth
-.
+
+Este projeto foi desenvolvido para resolver o problema de controle de hardware à distância através de uma interface móvel simples. O aplicativo serve para facilitar a interação entre um dispositivo móvel e robôs ou mecanismos motorizados, utilizando a comunicação Bluetooth para enviar comandos de movimento precisos.
 
 ## ✨ Funcionalidades
-- Funcionalidade 1 Conectividade Bluetooth: Interface dedicada para buscar e conectar-se a dispositivos próximos
-.
-- Funcionalidade 2 Controle Direcional: Quatro botões de comando (Frente, Trás, Esquerda e Direita) para movimentação precisa de motores
-.
-- Funcionalidade 3 Feedback em Tempo Real: Indicador visual de status da conexão ("Desconectado" ou "Conexão Estabelecida")
 
-- Funcionalidade 4 Integração com Motores NXT: Comandos diretos configurados para acionar os motores A e B de forma independente ou conjunta
-.
-- Funcionalidade 5 Interface Personalizada: Design customizado com a identidade visual do SENAI
-.
+* **Gerenciamento de Conexão:** Sistema para listar, selecionar e conectar-se a dispositivos Bluetooth disponíveis.
+* **Controle Direcional Completo:** Interface com botões para movimentação para Frente, Trás, Esquerda e Direita.
+* **Lógica de Motores NXT:** Programação específica para acionar os motores A e B, definindo potências e direções de rotação.
+* **Feedback ao Usuário:** Notificações visuais de "Conexão Estabelecida!!" e exibição do status atual da conexão (ex: "Desconectado").
+* **Design Customizado:** Interface visual que inclui o logotipo e as cores do SENAI.
 
-## ️ 🛠️ Tecnologias Utilizadas
-MIT App Inventor: Plataforma utilizada para o desenvolvimento da interface e da lógica de blocos
-.
-Bluetooth: Protocolo de comunicação sem fio para troca de dados com o hardware
-.
-Componentes NXT: Utilização de componentes específicos do App Inventor para controle de dispositivos Lego Mindstorms
-.
+## 🛠️ Tecnologias Utilizadas
+
+* **MIT App Inventor:** Utilizado para o desenvolvimento de toda a interface e lógica de programação baseada em blocos.
+* **Bluetooth:** Protocolo de comunicação para troca de dados sem fio.
+* **GitHub:** Plataforma utilizada para hospedagem do código-fonte e documentação do projeto.
 
 ## 📂 Como testar este aplicativo?
-1.Faça o download do arquivo .aia presente neste repositório.
-2.Acesse o site do MIT App Inventor.
-3.Vá em Projetos > Importar projeto (.aia) do meu computador.
-4.Para instalar no celular, vá em Compilar > Android App (.apk) e escaneie o QR Code gerado.
-5.Certifique-se de que o Bluetooth do seu celular e do dispositivo que será controlado estão ligados e pareados.
+
+1. Baixe o arquivo `.aia` disponível neste repositório.
+2. Acesse o [MIT App Inventor](http://ai2.appinventor.mit.edu/).
+3. No menu superior, clique em **Projetos** > **Importar projeto (.aia) do meu computador**.
+4. Selecione o arquivo baixado para visualizar a interface e testar a lógica dos blocos.
+5. Para usar no celular, acesse a opção **Compilar** > **Android App (.apk)** e instale o arquivo gerado no seu dispositivo móvel.
 
 ---
-*Projeto desenvolvido no curso de Desenvolvedor Mobile Android - Jovens
-Aprendizes.*
+*Desenvolvido por **Lorenzo** como parte das atividades de robótica e desenvolvimento móvel.*
